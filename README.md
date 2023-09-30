@@ -3,11 +3,14 @@ Minecraft is one of the most popular games worldwide. While the block-building a
 
 #### **Notes and warnings:**
 
-* *Importantly, before you try to do any of this at home, these instructions are meant for parents who are helping their kids. Thus, kids MUST get parent permission and choose a time when they can supervise and help. Setting up and running an online server means that anyone with your external IP address will be able to join your server and play in your Minecraft world. Think carefully about who you invite to play on your server!*
+> [!WARNING]
+> Before you try to do any of this at home, these instructions are meant for parents who are helping their kids. Thus, kids MUST get parent permission and choose a time when they can supervise and help. Setting up and running an online server means that anyone with your external IP address will be able to join your server and play in your Minecraft world. Think carefully about who you invite to play on your server!
 
-* *This server setup is only compatible with Minecraft: Java Edition.*
+> [!NOTE]
+> This server setup is only compatible with Minecraft: Java Edition.
 
-* *This guide shows you how to set up and configure a Minecraft Server. However, doing this requires changing your home network's configuration and is not recommended unless you know what you are doing. If you wish to purchase a small private server for friends, check out [Minecraft Realms](<https://www.minecraft.net/realms>). If you still wish to set up your own private server, do so at your own risk.*
+> [!IMPORTANT]
+> This guide shows you how to set up and configure a Minecraft Server. However, doing this requires changing your home network's configuration and is not recommended unless you know what you are doing. If you wish to purchase a small private server for friends, check out [Minecraft Realms](<https://www.minecraft.net/realms>). If you still wish to set up your own private server, do so at your own risk.
 
 #### **Help & support:**
 
@@ -29,5 +32,3 @@ Next, you'll need the server files. You can get these for free from the official
 
 #### 3. 
 
-> [!NOTE]
-> Highlights information that users should take into account, even when skimming.
