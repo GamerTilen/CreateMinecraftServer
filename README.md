@@ -29,7 +29,7 @@ Since Minecraft is a Java-based game, our first step is to make sure you have th
 
 Next, you'll need the server files. You can get these for free from the official Minecraft site:
  
-1. Go to the Minecraft Server Downloads page and download `minecraft_server.1.20.2.jar`. 
+1. Go to the Minecraft Server Downloads page and download `minecraft_server.1.20.2.jar`. A copy of the offical file will be above. 
 2. Once the download finishes, copy `minecraft_server.1.20.2.jar` into a new folder on your desktop and call this folder "Minecraft Server" (you can name the folder however you want we just used "Minecraft Server" as an example).
 
 #### 3. 
