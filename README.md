@@ -13,6 +13,7 @@ If you want to support me you can [buy me a coffee](https://www.buymeacoffee.com
 
 > [!NOTE]
 > This server setup is only compatible with Minecraft: Java Edition.
+> This server setup is only compatible with Windows.
 
 #### **Help & support:**
 
