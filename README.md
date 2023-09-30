@@ -34,7 +34,7 @@ Next, you'll need the server files. You can get these for free from the official
 
 > [!NOTE]
 > File `minecraft_server.1.20.2.jar` can also be named `server.jar`. If this happend just reneme it or you can leave if like that. But somethink in the following steps must be changes if you leave it like that. [^1]
-[^1]:When you are pasting the line into Notepad (step 3) you must change the `minecraft_server.1.20.2.jar` to the name you chosen.
+[^1]:When you are pasting the line into Notepad (step 3) you must change the `minecraft_server.1.20.2.jar` to the name you chosen. But leave the **.jar** in!
 > [!NOTE]
 > Minecraft will over time be update so the file name can be changed. I will try to update it when it changes.
 
