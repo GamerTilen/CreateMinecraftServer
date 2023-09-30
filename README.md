@@ -32,5 +32,3 @@ Next, you'll need the server files. You can get these for free from the official
 
 #### 3. 
 
-> [!HELP]
-> This server setup is only compatible with Minecraft: Java Edition.
