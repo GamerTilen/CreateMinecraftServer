@@ -45,8 +45,11 @@ Next, you'll need the server files. You can get these for free from the official
 > If you're using a different name for the file, change `minecraft_server.1.20.2.jar` part, to the name you're using. 
 
 5. Now **"Save As"** a batch file, which is a file Windows uses to run command line commands. 
-6. Click "File" > "Save As."
-7.  7. In the field "Save as Type," select "All Files." 
-8. Set the file name to "Run.bat". 
+6. Click **"File"** > **"Save As"**.
+7. In the field **"Save as Type"**, select **"All Files"**.
+8. Set the file name to **"Run.bat"**. 
 
-Important: Make sure you remove the .txt at the end of the filename.
+> [!IMPORTANT]
+> Make sure you remove the **.txt** at the end of the filename.
+
+#### 4.
