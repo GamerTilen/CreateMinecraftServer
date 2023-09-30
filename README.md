@@ -58,4 +58,14 @@ Next, you'll need the server files. You can get these for free from the official
 
 9. Now run the file. When you did that a batch file will open and some new files will be created. If that doesn't happend get [support above](https://github.com/GamerTilen/CreateMinecraftServer/tree/CreateMinecraftServer(main)#help--support).
 
-#### 4.
+#### 4. Agree to the EULA
+
+After you did the last step you will see a license agreement provided that you must agree to before launching a Minecraft server. You'll need to edit the file `eula.txt` to indicate that you agree.
+
+1. Double-click `eula.txt`. 
+2. Change the line `eula=false` to `eula=true`.
+
+> [!NOTE]
+> You can [read the EULA here](https://www.minecraft.net/en-us/eula) or by copying and pasting the link from the file. 
+
+
