@@ -73,3 +73,17 @@ After you did the last step you will see a license agreement provided that you m
 > [!IMPORTANT]
 > This is NOT the finished server because you can only access it on your computer. You must do all the steps to have a server that everyone can join.
 
+Now you're ready to start your server! 
+Double-click `Run.bat` and your server will launch. 
+A window will appear with some info about your server. As long as you leave this window open, your server is running!
+
+#### The window (server console)
+
+Your server provides some information to help you keep track of what's going on, even if you're not in-game. 
+
+1. You can see how much memory the server is using in the Stats panel. 
+2. You can check who is currently connected to the server in the Players panel.
+3. You can see server messages and player chats in the Log and Chat panel. 
+4. You can use the field on the bottom-right to enter server commands.
+
+Server Commands allow advanced users more control over their server. You can find a list of all possible commands [here](https://minecraft.fandom.com/wiki/Commands).
