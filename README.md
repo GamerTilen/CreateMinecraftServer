@@ -68,4 +68,8 @@ After you did the last step you will see a license agreement provided that you m
 > [!NOTE]
 > You can [read the EULA here](https://www.minecraft.net/en-us/eula) or by copying and pasting the link from the file. 
 
+### 5. Start the Server
+
+> [!IMPORTANT]
+> This is NOT the finished server because you can only access it on your computer. You must do all the steps to have a server that everyone can join.
 
