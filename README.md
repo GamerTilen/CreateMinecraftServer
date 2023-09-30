@@ -6,7 +6,7 @@ If you want to support me you can [buy me a coffee](https://www.buymeacoffee.com
 #### **Notes and warnings:**
 
 > [!WARNING]
-> Before you try to do any of this at home, these instructions are meant for parents who are helping their kids. Thus, kids MUST get parent permission and choose a time when they can supervise and help. Setting up and running an online server means that anyone with your external IP address will be able to join your server and play in your Minecraft world. Think carefully about who you invite to play on your server!
+> Before you try to do any of this at home, these instructions are meant for parents who are helping their kids. Kids MUST get parent permission and choose a time when they can supervise and help. Setting up and running an online server means that anyone with your external IP address will be able to join your server and play in your Minecraft world. Think carefully about who you invite to play on your server!
 
 > [!IMPORTANT]
 > This guide shows you how to set up and configure a Minecraft Server. However, doing this requires changing your home network's configuration and is not recommended unless you know what you are doing. If you wish to purchase a small private server for friends, check out [Minecraft Realms](<https://www.minecraft.net/realms>). If you still wish to set up your own private server, do so at your own risk.
