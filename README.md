@@ -77,7 +77,7 @@ Now you're ready to start your server!
 Double-click `Run.bat` and your server will launch. 
 A window will appear with some info about your server. As long as you leave this window open, your server is running!
 
-#### The window (server console)
+#### The server window (server console)
 
 Your server provides some information to help you keep track of what's going on, even if you're not in-game. 
 
@@ -87,3 +87,7 @@ Your server provides some information to help you keep track of what's going on,
 4. You can use the field on the bottom-right to enter server commands.
 
 Server Commands allow advanced users more control over their server. You can find a list of all possible commands [here](https://minecraft.fandom.com/wiki/Commands).
+
+![The server window (server console)](https://github.com/GamerTilen/CreateMinecraftServer/blob/CreateMinecraftServer(main)/Media/minecraft-server-window.png)
+
+
