@@ -11,10 +11,23 @@ Minecraft is one of the most popular games worldwide. While the block-building a
 
 #### **Help & support:**
 
-**Need Help Troubleshooting?**  Refer to the [Minecraft online server set up Wiki article](https://minecraft.fandom.com/wiki/Tutorials/Setting_up_a_server). PLEASE NOTE: Some solutions to server issues require adjusting critical settings on your computer. If this is done improperly, you can damage your computer.
+**Need help troubleshooting?**  Refer to the [Minecraft online server set up Wiki article](https://minecraft.fandom.com/wiki/Tutorials/Setting_up_a_server). *Please note: Some solutions to server issues require adjusting critical settings on your computer. If this is done improperly, you can damage your computer.*
 
+**Need help?** You can join our Discord server and we will help you. Join here: [https://discord.gg/TDYTVWjubN](https://discord.gg/TDYTVWjubN).
 
 ## Step by step guide
 
 #### 1. Install the Latest Version of Java
-Since Minecraft is a Java-based game, our first step is to make sure you have the latest version of Java. If you don't, [download Java here](https://www.java.com/download/).  
+Since Minecraft is a Java-based game, our first step is to make sure you have the latest version of Java. If you don't, [download Java here](https://www.java.com/download/).
+
+#### 2. Download Minecraft_Server.jar
+
+Next, you'll need the server files. You can get these for free from the official Minecraft site:
+ 
+1. Go to the Minecraft Server Downloads page and download `minecraft_server.1.20.2.jar`. 
+2. Once the download finishes, copy `minecraft_server.1.20.2.jar` into a new folder on your desktop and call this folder "Minecraft Server" (you can name the folder however you want we just used "Minecraft Server" as an example).
+
+#### 3. 
+
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
