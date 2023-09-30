@@ -56,6 +56,6 @@ Next, you'll need the server files. You can get these for free from the official
 > [!IMPORTANT]
 > Make sure you remove the **.txt** at the end of the filename.
 
-9. Now run the file. When you did that a batch file will open and some new files will be created. If that doesn't happend get support above.
+9. Now run the file. When you did that a batch file will open and some new files will be created. If that doesn't happend get [support above]().
 
 #### 4.
