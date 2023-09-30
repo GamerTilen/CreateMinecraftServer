@@ -12,8 +12,7 @@ If you want to support me you can [buy me a coffee](https://www.buymeacoffee.com
 > This guide shows you how to set up and configure a Minecraft Server. However, doing this requires changing your home network's configuration and is not recommended unless you know what you are doing. If you wish to purchase a small private server for friends, check out [Minecraft Realms](<https://www.minecraft.net/realms>). If you still wish to set up your own private server, do so at your own risk.
 
 > [!NOTE]
-> This server setup is only compatible with Minecraft: Java Edition.
-> This server setup is only compatible with Windows.
+> This server setup is only compatible with **Minecraft: Java Edition**. This guide is only for operating platform **Windows**.
 
 #### **Help & support:**
 
