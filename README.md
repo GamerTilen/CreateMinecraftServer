@@ -34,5 +34,19 @@ Next, you'll need the server files. You can get these for free from the official
 
 *Please note: File `minecraft_server.1.20.2.jar` can also be named `server.jar`. If this happend just reneme it or you can leave if like that. But somethink in the following steps must be changes. Minecraft will over time be update so the file name can be changed. I will try to update it when it changes.*
 
-#### 3.
+#### 3. Create a Batch File to Run the Server 
 
+1. Right-click inside the Server folder where you put the `Minecraft_Server.1.20.2.jar`.
+2. Select **"New"** > **"Text Document"**.
+3. Name the new document **"Run"**.
+4. Inside the Notepad document, paste the following line: `java -Xmx1024M -Xms1024M -jar minecraft_server.1.20.2.jar nogui pause`.
+
+> [!IMPORTANT]
+> If you're using a different name for the file, change `minecraft_server.1.20.2.jar` part, to the name you're using. 
+
+5. Now **"Save As"** a batch file, which is a file Windows uses to run command line commands. 
+6. Click "File" > "Save As."
+7.  7. In the field "Save as Type," select "All Files." 
+8. Set the file name to "Run.bat". 
+
+Important: Make sure you remove the .txt at the end of the filename.
