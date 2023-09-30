@@ -7,7 +7,7 @@ Minecraft is one of the most popular games worldwide. While the block-building a
 
 *- This server setup is only compatible with Minecraft: Java Edition.*
 
-*- This guide shows you how to set up and configure a Minecraft Server. However, doing this requires changing your home network's configuration and is not recommended unless you know what you are doing. If you wish to purchase a small private server for friends, check out [Minecraft Realms](https://www.minecraft.net/realms). If you still wish to set up your own private server, do so at your own risk.*
+*- This guide shows you how to set up and configure a Minecraft Server. However, doing this requires changing your home network's configuration and is not recommended unless you know what you are doing. If you wish to purchase a small private server for friends, check out [Minecraft Realms](<https://www.minecraft.net/realms>). If you still wish to set up your own private server, do so at your own risk.*
 
 ## Step by step guide
 
