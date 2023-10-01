@@ -205,4 +205,8 @@ With the firewall set up and incoming network requests allowed, proceed to creat
 
 ## Congratulations! You have just created a Minecraft server!
 
+And that's it! Remember, always ask parents for permission before starting to set up an online server! And importantly, you must download the server software from Minecraft and use port forwarding to allow others access to your server.
 
+***Try this!*** Don't forget that you can double-check steps and get more information on setting up servers here:
++ [https://help.minecraft.net/hc/en-us/articles/360058525452-How-to-Setup-a-Minecraft-Java-Edition-Server](https://help.minecraft.net/hc/en-us/articles/360058525452-How-to-Setup-a-Minecraft-Java-Edition-Server)
++ [https://minecraft.fandom.com/wiki/Tutorials/Setting_up_a_server](https://minecraft.fandom.com/wiki/Tutorials/Setting_up_a_server)
