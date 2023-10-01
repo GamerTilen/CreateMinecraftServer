@@ -74,7 +74,7 @@ After you did the last step you will see a license agreement provided that you m
 > This is NOT the finished server because you can only access it on your computer/network. You must do all the steps to have a server that everyone can join.
 
 Now you're ready to start your server! 
-Double-click `Run.bat` and your server will launch. 8()
+Double-click `Run.bat` and your server will launch.
 A window will appear with some info about your server. As long as you leave this window open, your server is running! 
 
 > [!IMPORTANT]
@@ -109,5 +109,17 @@ Here is the default port number for Minecraft: Java edition: **25565**
 
 Users can change the port by changing the server-port value to any in the range from **1** to **65535**, although I recommend sticking with the default one.
 
+#### Step 2: Allow the Port on Your Firewall
+
+To ensure that the server works correctly, you will need to allow the Minecraft port number via your firewall.
+
+1. Open **Windows Defender Firewall with Advanced Security**.
+2. Click on **"Inbound Rules"** and select **"New Rule"**.
+3. Choose **"Port"** and click **"Next"**.
+4. Select **"TCP"**, and enter the Minecraft port number. In this case, it’s **"25565"***. Once done, click **"Next"**.
+5. Select **"Allow connection"** and click the **"Next"** button until the final step. Before clicking **"Finish"**, give your rule a name.
+6. After you have created the rule, make a new one with the same configuration, just for **UDP**
+
+#### Step 3: Forward the Port on the Route
 
 
