@@ -23,7 +23,7 @@ If you want to support me you can [buy me a coffee](https://www.buymeacoffee.com
 ## Step by step guide
 
 ### 1. Install the Latest Version of Java
-Since Minecraft is a Java-based game, our first step is to make sure you have the latest version of Java. If you don't, [download Java here](https://www.java.com/download/).
+Since Minecraft is a Java-based game, our first step is to make sure you have the latest version of Java installed. If you don't, [download Java here](https://www.java.com/download/).
 
 ### 2. Download Minecraft_Server.jar
 
@@ -71,11 +71,14 @@ After you did the last step you will see a license agreement provided that you m
 ### 5. Start the Server
 
 > [!IMPORTANT]
-> This is NOT the finished server because you can only access it on your computer. You must do all the steps to have a server that everyone can join.
+> This is NOT the finished server because you can only access it on your computer/network. You must do all the steps to have a server that everyone can join.
 
 Now you're ready to start your server! 
-Double-click `Run.bat` and your server will launch. 
-A window will appear with some info about your server. As long as you leave this window open, your server is running!
+Double-click `Run.bat` and your server will launch. 8()
+A window will appear with some info about your server. As long as you leave this window open, your server is running! 
+
+> [!IMPORTANT]
+> If the command prompt opens close it and click on `minecraft_server.1.20.2.jar` and the right window will open but if an error pops up [please get support above](https://github.com/GamerTilen/CreateMinecraftServer/tree/CreateMinecraftServer(main)#help--support))
 
 #### The server window (server console)
 
@@ -86,8 +89,25 @@ Your server provides some information to help you keep track of what's going on,
 3. You can see server messages and player chats in the Log and Chat panel. 
 4. You can use the field on the bottom-right to enter server commands.
 
+To make a Minecraft server visible publicly, you will need to find the default server port, allow it through a firewall, and tinker with your router configuration.
+
 Server Commands allow advanced users more control over their server. You can find a list of all possible commands [here](https://minecraft.fandom.com/wiki/Commands).
 
 ![The server window (server console)](https://github.com/GamerTilen/CreateMinecraftServer/blob/CreateMinecraftServer(main)/Media/minecraft-server-window.png)
+
+### 6. Port Forwarding
+
+To make a Minecraft server visible publicly, you will need to find the default server port, allow it through a firewall, and tinker with your router configuration.
+
+#### Step 1: Set the Port on Minecraft Configuration
+
+1. Open the Minecraft server directory and locate the `server.properties` file.
+2. Right-click on it and open the file with a text editor.
+3. Find the **server-port** line.
+
+Here is the default port number for Minecraft: Java edition: **25565**
+
+Users can change the port by changing the server-port value to any in the range from **1** to **65535**, although I recommend sticking with the default one.
+
 
 
