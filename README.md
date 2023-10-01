@@ -25,7 +25,7 @@ If you want to support me you can [buy me a coffee](https://www.buymeacoffee.com
 
 **Need help?** You can join our Discord server and we will help you. Join here: [https://discord.gg/TDYTVWjubN](https://discord.gg/TDYTVWjubN).
 
-**Have a question?** You can ask it in [discussions](https://github.com/GamerTilen/CreateMinecraftServer/discussions).
+**Have a question?** You can ask it in [discussions](https://github.com/GamerTilen/CreateMinecraftServer/discussions/categories/support).
 
 ## Step by step guide
 
