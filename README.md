@@ -131,7 +131,7 @@ To ensure that the server works correctly, you will need to allow the Minecraft 
 
 ![pf-img-5](Media/Port-forwarding/Rule-creation-window-with-the-Port-option-selected.png)
 
-4. Select **TCP**, and enter the Minecraft port number. In this case, it’s **25565***. Once done, click **Next**.
+4. Select **TCP**, and enter the Minecraft port number. In this case, it’s **25565**. Once done, click **Next**.
 
 ![pf-img-6](Media/Port-forwarding/Firewall-rule-applied-to-TCP-and-to-default-Minecraft-server-port.png)
 
