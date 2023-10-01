@@ -141,7 +141,7 @@ To ensure that the server works correctly, you will need to allow the Minecraft 
 
 6. After you have created the rule, make a new one with the same configuration, just for **UDP**
 
-#### Step 3: Forward the Port on the Route
+#### Step 3: Forward the Port on the Router
 
 With the firewall set up and incoming network requests allowed, proceed to create a port forward rule on your router. Even though each router has a different interface, the steps will be similar.
 
@@ -189,4 +189,14 @@ With the firewall set up and incoming network requests allowed, proceed to creat
 > [!NOTE]
 > If you are still unsure about the exact port forwarding procedure for your specific router, you can always Google the device name and look up the router’s manual.
 
+#### Step 4: Get the Server Public IP address and play
+
+> [!IMPORTANT]
+> If you had server running in the forwarding procees you will need to restart it so changes can apply.
+
+1. Find out your public IP address (IPv4) [here](https://whatismyipaddress.com/). 
+2. Now players will be able to join the server via that IP.
+
+> [!NOTE]
+> Keep in mind that if the default server port 25565 was changed, users would need to connect using the **`IP:port`** syntax (the **`port`** part must be replaced with your port and the **`IP`** part must be replaced with your public IP but you need to keep **`:`** beetween them). 
 
