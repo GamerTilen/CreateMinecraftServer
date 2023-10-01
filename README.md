@@ -128,8 +128,17 @@ To ensure that the server works correctly, you will need to allow the Minecraft 
 ![pf-img-4](Media/Port-forwarding/Windows-Defender-view-for-creating-a-New-Rule-meant-to-enable-incoming-connections.png)
 
 3. Choose **Port** and click **Next**.
+
+![pf-img-5](Media/Port-forwarding/Rule-creation-window-with-the-Port-option-selected.png)
+
 4. Select **TCP**, and enter the Minecraft port number. In this case, it’s **25565***. Once done, click **Next**.
+
+![pf-img-6](Media/Port-forwarding/Firewall-rule-applied-to-TCP-and-to-default-Minecraft-server-port.png)
+
 5. Select **Allow connection** and click the **Next** button until the final step. Before clicking **Finish**, give your rule a name.
+
+![pf-img-7](Media/Port-forwarding/Last-step-for-Windows-Firewall-rule-creation.-This-will-allow-incoming-traffic-to-users-Minecraft-server.png)
+
 6. After you have created the rule, make a new one with the same configuration, just for **UDP**
 
 #### Step 3: Forward the Port on the Route
