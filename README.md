@@ -156,16 +156,34 @@ With the firewall set up and incoming network requests allowed, proceed to creat
 1. Press **Windows** + **R** and enter **CMD** to open the command prompt.
 2. Run the following command: `ipconfig`.
 3. The router’s IP address will be shown on the **Default gateway** line.
+
+![pf-img-8](Media/Port-forwarding/Command-prompt-ipconfig-command-for-showing-the-default-routers-address.png)
+
 4. To set up a static IP address, press **Windows** + **R** again and enter **ncpa.cpl**. Right-click your network interface, select **Properties**, **locate Internet Protocol Version 4 (TCP/IP)**, and select **Properties** again.
+
+![pf-img-9](Media/Port-forwarding/Ethernet-properties-for-Windows-operating-system.png)
+
 5. Specify the preferred static IP address, subnet mask (255.255.255.0), and the router IP you acquired earlier.
+
+![pf-img-10](Media/Port-forwarding/A-IPv4-properties-window-when-setting-up-a-static-IP-address.png)
+
 6. Once done, click **OK** to save the changes.
 
 ##### 2. Logging in to the Router
 
 1. Paste the router IP address into your browser’s address bar and press **Enter**. A login page will appear.
+
+![pf-img-11](Media/Port-forwarding/The-first-router-page-users-usually-see-–-a-login-form.png)
+
 2. It will ask for a username and password. If you are unsure where to find them, check the stickers on your router. Another option is to Google the router’s name and model number along with keywords like default login credentials.
 3. Once logged in, look for options related to **virtual server** or **port forwarding**. In this tutorial, we’ll use a D-Link router. Its interface for port forwarding looks like this:
+
+![pf-img-12](Media/Port-forwarding/Router-page-for-D-Link.png)
+
 4. Check the **Enabled option**, give the forwarding rule a name, specify the local static IP address you’ve set previously, and enter the Minecraft server port. In this case, it’s 25565. Don’t forget to apply the configuration for both TCP and UDP ports.
+
+![pf-img-13](Media/Port-forwarding/Port-forwarding-configuration.png)
+
 5. Once done, save the changes.
 
 > [!NOTE]
