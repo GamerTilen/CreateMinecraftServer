@@ -8,6 +8,10 @@ Minecraft is one of the most popular games worldwide. While the block-building a
 
 If you want to support me you can [buy me a coffee](https://www.buymeacoffee.com/gamertilen)! ☕
 
+Thinks to do in the next update:
+- [ ] Add more pictures.
+- [ ] Add a guide for how to change the **number IP** (e.g. 123.456.789) into a DOMAIN (e.g. play.minecraft.net).
+
 ### **Notes and warnings:**
 
 > [!WARNING]
