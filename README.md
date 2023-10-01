@@ -163,7 +163,7 @@ With the firewall set up and incoming network requests allowed, proceed to creat
 
 ![pf-img-9](Media/Port-forwarding/Ethernet-properties-for-Windows-operating-system.png)
 
-5. Specify the preferred static IP address, subnet mask (255.255.255.0), and the router IP you acquired earlier.
+5. Specify the preferred static IP address (IPv4 address in command prompt), subnet mask (255.255.255.0), and the router IP you acquired earlier (deafult gateaway in command prompt).
 
 ![pf-img-10](Media/Port-forwarding/A-IPv4-properties-window-when-setting-up-a-static-IP-address.png)
 
