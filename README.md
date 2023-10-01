@@ -124,13 +124,13 @@ To ensure that the server works correctly, you will need to allow the Minecraft 
 
 With the firewall set up and incoming network requests allowed, proceed to create a port forward rule on your router. Even though each router has a different interface, the steps will be similar.
 
-For short this are the following steps:
-1. Find your **default gateway** IP address. It will be used to log in to the router.
-2. Set up a static IP address.
-3. Open the port forwarding settings.
-4. Specify which TCP and UDP ports to forward.
+ For short this are the following steps:
+ - Find your **default gateway** IP address. It will be used to log in to the router.
+ - Set up a static IP address.
+ - Open the port forwarding settings.
+ - Specify which TCP and UDP ports to forward.
 
-+ **Finding the Router Address and Setting up a Static IP on Windows**
+##### 1. Finding the Router Address and Setting up a Static IP on Windows
 
 1. Press **Windows** + **R** and enter **CMD** to open the command prompt.
 2. Run the following command: `ipconfig`.
@@ -139,6 +139,15 @@ For short this are the following steps:
 5. Specify the preferred static IP address, subnet mask (255.255.255.0), and the router IP you acquired earlier.
 6. Once done, click **OK** to save the changes.
 
-+ **Logging in to the Router**
+##### 2. Logging in to the Router
+
+1. Paste the router IP address into your browser’s address bar and press **Enter**. A login page will appear.
+2. It will ask for a username and password. If you are unsure where to find them, check the stickers on your router. Another option is to Google the router’s name and model number along with keywords like default login credentials.
+3. Once logged in, look for options related to **virtual server** or **port forwarding**. In this tutorial, we’ll use a D-Link router. Its interface for port forwarding looks like this:
+4. Check the **Enabled option**, give the forwarding rule a name, specify the local static IP address you’ve set previously, and enter the Minecraft server port. In this case, it’s 25565. Don’t forget to apply the configuration for both TCP and UDP ports.
+5. Once done, save the changes.
+
+> [!NOTE]
+> If you are still unsure about the exact port forwarding procedure for your specific router, you can always Google the device name and look up the router’s manual.
 
 
