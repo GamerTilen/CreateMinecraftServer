@@ -1,6 +1,8 @@
 # How to create and host a Minecraft server?
 
 ![Title-img](Media/how-to-create-and-host-a-minecraft-server.png)
++ **THIS GUIDE IS FOR WINDOWS OPERATING SYSTEM ONLY!**
++ **THIS GUIDE IS FOR MINECRAFT: JAVA EDITION ONLY!**
 
 Minecraft is one of the most popular games worldwide. While the block-building and survival game is fun to play by yourself, it's even more fun to play with other people. Minecraft: Java Edition allows you to host your own server using your own computer. It does require some basic computer knowledge and networking skills. This will teaches you how to setup and host your own server on your computer.
 
