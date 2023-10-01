@@ -41,17 +41,17 @@ Next, you'll need the server files. You can get these for free from the official
 ### 3. Create a Batch File to Run the Server 
 
 1. Right-click inside the Server folder where you put the `Minecraft_Server.1.20.2.jar`.
-2. Select **"New"** > **"Text Document"**.
-3. Name the new document **"Run"**.
+2. Select **New** > **Text Document**.
+3. Name the new document **Run**.
 4. Inside the Notepad document, paste the following line: `java -Xmx1024M -Xms1024M -jar minecraft_server.1.20.2.jar nogui pause`.
 
 > [!IMPORTANT]
 > If you're using a different name for the file, change `minecraft_server.1.20.2.jar` part, to the name you're using. 
 
-5. Now **"Save As"** a batch file, which is a file Windows uses to run command line commands. 
-6. Click **"File"** > **"Save As"**.
-7. In the field **"Save as Type"**, select **"All Files"**.
-8. Set the file name to **"Run.bat"**. 
+5. Now **Save As** a batch file, which is a file Windows uses to run command line commands. 
+6. Click **File** > **Save As**.
+7. In the field **Save as Type**, select **All Files**.
+8. Set the file name to **Run.bat**. 
 
 > [!IMPORTANT]
 > Make sure you remove the **.txt** at the end of the filename.
@@ -63,7 +63,7 @@ Next, you'll need the server files. You can get these for free from the official
 After you did the last step you will see a license agreement provided that you must agree to before launching a Minecraft server. You'll need to edit the file `eula.txt` to indicate that you agree.
 
 1. Double-click `eula.txt`. 
-2. Change the line `eula=false` to `eula=true`.
+2. Change the line **eula=false** to **eula=true**.
 
 > [!NOTE]
 > You can [read the EULA here](https://www.minecraft.net/en-us/eula) or by copying and pasting the link from the file. 
@@ -114,12 +114,31 @@ Users can change the port by changing the server-port value to any in the range 
 To ensure that the server works correctly, you will need to allow the Minecraft port number via your firewall.
 
 1. Open **Windows Defender Firewall with Advanced Security**.
-2. Click on **"Inbound Rules"** and select **"New Rule"**.
-3. Choose **"Port"** and click **"Next"**.
-4. Select **"TCP"**, and enter the Minecraft port number. In this case, it’s **"25565"***. Once done, click **"Next"**.
-5. Select **"Allow connection"** and click the **"Next"** button until the final step. Before clicking **"Finish"**, give your rule a name.
+2. Click on **Inbound Rules** and select **New Rule**.
+3. Choose **Port** and click **Next**.
+4. Select **TCP**, and enter the Minecraft port number. In this case, it’s **25565***. Once done, click **Next**.
+5. Select **Allow connection** and click the **Next** button until the final step. Before clicking **Finish**, give your rule a name.
 6. After you have created the rule, make a new one with the same configuration, just for **UDP**
 
 #### Step 3: Forward the Port on the Route
+
+With the firewall set up and incoming network requests allowed, proceed to create a port forward rule on your router. Even though each router has a different interface, the steps will be similar.
+
+For short this are the following steps:
+1. Find your **default gateway** IP address. It will be used to log in to the router.
+2. Set up a static IP address.
+3. Open the port forwarding settings.
+4. Specify which TCP and UDP ports to forward.
+
++ **Finding the Router Address and Setting up a Static IP on Windows**
+
+1. Press **Windows** + **R** and enter **CMD** to open the command prompt.
+2. Run the following command: `ipconfig`.
+3. The router’s IP address will be shown on the **Default gateway** line.
+4. To set up a static IP address, press **Windows** + **R** again and enter **ncpa.cpl**. Right-click your network interface, select **Properties**, **locate Internet Protocol Version 4 (TCP/IP)**, and select **Properties** again.
+5. Specify the preferred static IP address, subnet mask (255.255.255.0), and the router IP you acquired earlier.
+6. Once done, click **OK** to save the changes.
+
++ **Logging in to the Router**
 
 
