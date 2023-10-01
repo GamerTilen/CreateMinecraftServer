@@ -93,7 +93,7 @@ To make a Minecraft server visible publicly, you will need to find the default s
 
 Server Commands allow advanced users more control over their server. You can find a list of all possible commands [here](https://minecraft.fandom.com/wiki/Commands).
 
-![The server window (server console)](https://github.com/GamerTilen/CreateMinecraftServer/blob/CreateMinecraftServer(main)/Media/minecraft-server-window.png)
+![The server window (server console)](Media/minecraft-server-window.png)
 
 ### 6. Port Forwarding
 
@@ -102,8 +102,14 @@ To make a Minecraft server visible publicly, you will need to find the default s
 #### Step 1: Set the Port on Minecraft Configuration
 
 1. Open the Minecraft server directory and locate the `server.properties` file.
-2. Right-click on it and open the file with a text editor.
-3. Find the **server-port** line.
+
+![pf-img-1](Media/Port-forwarding/Local-Windows-Minecraft-servers-settings-filE.png)
+   
+3. Right-click on it and open the file with a text editor.
+
+![pf-img-2](Media/Port-forwarding/Server.Properties-server-port.png)
+
+4. Find the **server-port** line.
 
 Here is the default port number for Minecraft: Java edition: **25565**
 
@@ -114,7 +120,13 @@ Users can change the port by changing the server-port value to any in the range 
 To ensure that the server works correctly, you will need to allow the Minecraft port number via your firewall.
 
 1. Open **Windows Defender Firewall with Advanced Security**.
+
+![pf-img-3](Media/Port-forwarding/Windows-Defender-Firewall-desktop-app-where-users-can-access-advanced-settings-of-Windows-Defender-1.png)
+
 2. Click on **Inbound Rules** and select **New Rule**.
+
+![pf-img-4](Media/Port-forwarding/Windows-Defender-view-for-creating-a-New-Rule-meant-to-enable-incoming-connections.png)
+
 3. Choose **Port** and click **Next**.
 4. Select **TCP**, and enter the Minecraft port number. In this case, it’s **25565***. Once done, click **Next**.
 5. Select **Allow connection** and click the **Next** button until the final step. Before clicking **Finish**, give your rule a name.
