@@ -194,9 +194,12 @@ With the firewall set up and incoming network requests allowed, proceed to creat
 > [!IMPORTANT]
 > If you had server running in the forwarding procees you will need to restart it so changes can apply.
 
-1. Find out your public IP address (IPv4) [here](https://whatismyipaddress.com/). 
-2. Now players will be able to join the server via that IP.
+1. Find out your public IP address (IPv4) [here](https://whatismyipaddress.com/).
+3. Now players will be able to join the server via that IP.
 
 > [!NOTE]
 > Keep in mind that if the default server port 25565 was changed, users would need to connect using the **`IP:port`** syntax (the **`port`** part must be replaced with your port and the **`IP`** part must be replaced with your public IP but you need to keep **`:`** beetween them). 
+
+## Congratulations! You have just created a Minecraft server!
+
 
